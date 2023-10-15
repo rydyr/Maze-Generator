@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Maze Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="maze"></div>
+  <div id="settings">
+    <div id="maze-size">
+      <label for="maze-size-input">Maze Size:</label>
+      <select id="maze-size-input">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+    <div id="cell-size">
+      <label for="cell-size-input">Cell Size:</label>
+      <select id="cell-size-input">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+    <div id="gen-speed">
+      <label for="gen-speed-input">Generation Speed:</label>
+      <select id="gen-speed-input">
+        <option value="fast">Fast</option>
+        <option value="medium">Medium</option>
+        <option value="slow">Slow</option>
+      </select>
+      <button id="gen-button">Generate!</button>
+      <button id="clear-button">Clear</button>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

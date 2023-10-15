@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#maze {
+  display: grid;
+  grid-template-columns: repeat(10, 10px);  
+  gap: 0;
+  
+}
+
+.cell {
+  background-color: #eee;
+  border: 1px solid black;
+  box-sizing: border-box;
+  
+}
+
+.visited {
+  background-color: #eee;
+}
